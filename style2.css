@@ -1,0 +1,37 @@
+#container_1{
+    width: 1440px;
+    height: 960px;
+    background-color: #D5E1EF;
+    display: flex;
+}
+
+.child{
+    height: 475px;
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 560px;
+    top: 242.5px;
+    padding: 16px 16px;
+    gap: 24px;
+}
+.inside img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    /* padding: 16px 16px; */
+    box-shadow: 10px 10px white;
+}
+.content_box{
+    width: 288px;
+    height: 131px;
+    gap: 16px;
+    padding: 16px;
+}
+.inside, .content_box p{
+    height: 52px;
+    width: 256px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
